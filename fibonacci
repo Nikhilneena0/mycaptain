@@ -1,18 +1,17 @@
-n=(input)
+n = int(input("Enter a positive number: "))
 
-n1=0
-n2=1
-count=0
+n1 = 0
+n2 = 1
+count = 0
 
-if n<=0:
-   print('type a positive number ')
-elif n==0:
-   print('0')
+if n <= 0:
+    print('Please enter a positive number ')
+elif n == 1:
+    print(n1)
 else:
-   
-   while count<n:
-   print('n1')
-mt=n1+n2
-n1=n2
-n2=mt
-count+=1 
+    while count < n:
+        print(n1)
+        mt = n1 + n2
+        n1 = n2
+        n2 = mt
+        count += 1
