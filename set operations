@@ -1,0 +1,9 @@
+s={1,2,3,4}
+y={2,3,6,7}
+
+
+print("intersection of s and y is", s.intersection(y))
+print("union of s and y is", s.union(y))
+print("difference of s and y is", s.difference(y))
+print("symmetric difference of s and y is", s.symmetric_difference(y))
+
